@@ -10,5 +10,10 @@ public class SimpleMath {
 			return quotient;
 		}
 	}
+	
+	public double multiply(double number1, double number2) {
+		double product = number1 * number2;
+		return product;
+	}
 
 }
