@@ -79,7 +79,7 @@ public class Main {
 			public void mouseClicked(MouseEvent e) {
 				try{
 					double numerator = Double.parseDouble(textFieldNum.getText());
-					double denominator = Double.parseDouble(textFieldNum.getText());
+					double denominator = Double.parseDouble(textFieldDen.getText());
 					SimpleMath mathResult = new SimpleMath();
 					var result =  mathResult.divide(numerator, denominator);
 					lblAnswer.setText(String.valueOf(result));
