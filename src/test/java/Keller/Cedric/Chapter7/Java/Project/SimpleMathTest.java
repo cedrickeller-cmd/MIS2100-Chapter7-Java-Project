@@ -9,13 +9,13 @@ public class SimpleMathTest {
 	@Test
 	public void testThatZeroNumeratorReturnsZero() {
 		SimpleMath math = new SimpleMath();
-		assertEquals(0, math.divide(0, 7));
+		assertEquals(0, math.divide(0, 7), 0.001);
 	}
 	
 	@Test
 	public void testThatSmallerNumeratorReturnsDecimalValue() {
 		SimpleMath math = new SimpleMath();
-		assertEquals(0.25, math.divide(1, 4));
+		assertEquals(0.25, math.divide(1, 4), 0.001);
 	}
 	
 	@Test(expected=ArithmeticException.class)
